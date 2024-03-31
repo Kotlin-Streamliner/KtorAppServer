@@ -11,3 +11,11 @@ fun Application.configureRouting() {
         }
     }
 }
+
+fun Application.configureRouting2() {
+    routing {
+        get("/books") {
+            call.respondText("Hello Books!")
+        }
+    }
+}

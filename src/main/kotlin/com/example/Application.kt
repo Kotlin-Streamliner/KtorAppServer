@@ -11,5 +11,14 @@ fun main() {
 }
 
 fun Application.module() {
+    module1()
+    module2()
+}
+
+fun Application.module1() {
     configureRouting()
+}
+
+fun Application.module2() {
+    configureRouting2()
 }
